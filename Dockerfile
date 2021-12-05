@@ -20,5 +20,7 @@ RUN adduser --disabled-password \
 COPY ./disr_lab ${HOME}/disr_lab
 USER root
 RUN chown -R ${NB_UID} ${HOME}
+RUN mv /usr/local/bin/jupyter /usr/local/bin/jupyter2
+COPY ./jupyter /usr/local/bin/jupyter
 
 USER ${NB_USER}
