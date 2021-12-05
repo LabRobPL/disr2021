@@ -1,0 +1,6 @@
+#pragma once
+#define DREAL_VERSION_STRING  "4.18.08.1"
+#define DREAL_VERSION_FULL     4.18.08.1
+#define DREAL_VERSION_MAJOR    4
+#define DREAL_VERSION_MINOR    18
+#define DREAL_VERSION_REVISION 08

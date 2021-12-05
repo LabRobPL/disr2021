@@ -1,0 +1,3 @@
+#!/bin/sh
+meshcat-server &
+cd /home/jovyan/disr_lab && jupyter notebook $@ --no-browser
